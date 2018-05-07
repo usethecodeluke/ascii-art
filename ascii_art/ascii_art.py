@@ -15,7 +15,7 @@ ascii_ramp = (
 num_chars = len(ascii_ramp)
 
 # maximum width or height (whichever is largest in input) for image scaling
-ascii_art_size = 2**8  # seems like a nice number.
+ascii_art_size = 2**6  # seems like a nice number.
 greyscale_precision = 2**8  # PIL 'L' mode greyscale is 8-bit precision.
 
 
